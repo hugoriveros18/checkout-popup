@@ -1,0 +1,6 @@
+{
+  "section": "orders",
+  "titleId": "checkout-pop-up.navigation.label",
+  "path": "/admin/pop-up-checkout",
+  "searchKeyWordsHelpers": "checkout-pop-up.navigation.search.kws"
+}

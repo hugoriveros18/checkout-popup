@@ -1,0 +1,54 @@
+.popup__information--main-title {
+  width: 100%;
+}
+
+.popup__information--main-title h4 {
+  width      : 100%;
+  margin     : 0 0 25px;
+  font-family: "Lato", sans-serif;
+  font-size  : 28px;
+  font-weight: 600;
+  text-align : center;
+}
+
+.popup__information-container {
+  display       : flex;
+  flex-direction: column;
+  gap           : 15px;
+  width         : 100%;
+  padding       : 20px;
+  border        : solid 3px #ec6708;
+  border-radius : 10px;
+}
+
+.popup__information-item {
+  display: flex;
+  gap    : 15px;
+  width  : 100%;
+}
+
+.popup__information-item--title {
+  width      : 30%;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size  : 20px;
+  text-align : end;
+}
+
+.popup__information-item--value {
+  width      : 70%;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size  : 18px;
+  overflow   : hidden;
+}
+
+@media screen and (max-width: 640px) {
+  .popup__information-item--title {
+    font-size: 16px;
+  }
+
+  .popup__information-item--value {
+    font-size: 14px;
+  }
+}

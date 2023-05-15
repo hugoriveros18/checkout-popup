@@ -1,0 +1,6 @@
+{
+  "admin.app.checkout-pop-up": {
+    "component": "CheckoutPopUp",
+    "path": "/admin/app/pop-up-checkout"
+  }
+}

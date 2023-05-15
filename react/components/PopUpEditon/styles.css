@@ -1,0 +1,29 @@
+.popup-edition__global-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+.popup-edition__two-columns {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+.popup-edition__time-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  font-size: .875rem;
+  color: #3f3f40;
+}
+
+
+@media screen and (max-width: 640px) {
+  .popup-edition__two-columns {
+    flex-direction: column;
+  }
+}
+

@@ -1,0 +1,11 @@
+.checkout-popup__global-container {
+  background-color: #f2f4f5;
+}
+
+.checkout-popup__global-container--internal {
+  max-width: 1360px;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+}
+
+
